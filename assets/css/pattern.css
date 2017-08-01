@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.bxz{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.brs{
+  border-radius: 5px;
+}

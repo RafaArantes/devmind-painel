@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-LightItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-Light.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Cerebri Sans2";
+  src: url(../fonts/CerebriSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-Book.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-BookItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-SemiBold.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-ExtraBold.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-ExtraBoldItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-Heavy.ttf);
+  font-weight: 1000;
+}
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/CerebriSans-HeavyItalic.ttf);
+  font-weight: 1000;
+  font-style: italic;
+}
+*{
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.font1{
+  font-family: "Cerebri Sans2";
+}
+.font2{
+  font-family: "Cerebri Sans";
+}
+.fw100{
+  font-weight: 100;
+}
+.fw300{
+  font-weight: 300;
+}
+.fw400{
+  font-weight: normal;
+}
+.fw600{
+  font-weight: 600;
+}
+.fw500{
+  font-weight: 500;
+}
+.fw700{
+  font-weight: 700;
+}
+.fw900{
+  font-weight: 900;
+}
+.fw1000{
+  font-weight: 1000;
+}

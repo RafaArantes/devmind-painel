@@ -1,0 +1,225 @@
+/* Menu Lateral */
+
+.left-nav{
+  height: 100%;
+  border-right: solid 1px #efefef;
+  width: 275px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.logo{
+  width: 128px;
+  height: 23px;
+  margin-top: 33px;
+  margin-left: 37px;
+  background-image: url(../img/logodevmind.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.left-nav-title{
+  padding-top: 85px;
+  padding-left: 37px;
+  color: #787878;
+  padding-bottom: 22px;
+}
+.left-nav-opt{
+  padding-left: 37px;
+  height: 35px;
+}
+.left-nav-opt a{
+  display: block;
+  padding-top: 7px;
+  color: #9f9f9f;
+}
+.left-nav-opt.menu-active{
+  padding-left: 29px;
+  border-left: solid 8px #449abe;
+}
+/* Painel Conteudo */
+
+.painel-body{
+  margin-left: 340px;
+}
+
+/* Menu Superior */
+
+.top-nav{
+  width: 100%;
+  height: 61px;
+}
+.search{
+  float: left;
+  position: absolute;
+}
+.pesquisa-devmind{
+  text-transform: uppercase;
+  color: #787878;
+  font-size: 13px;
+  border: none;
+  height: 32px;
+  margin-top: 29px;
+  padding-left: 25px;
+  background-image: url(../img/lupa.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+.pesquisa-devmind:focus {
+    outline:none;
+}
+.user-menu{
+  width: 141px;
+  margin-top: 29px;
+  margin-right: 36px;
+  height: 32px;
+  float: right;
+}
+.user-name{
+  margin-top: 6px;
+  float: left;
+  margin-right: 10px;
+  font-size: 17px;
+  color: #717171;
+}
+.user-photo{
+  float: left;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #efefef;
+}
+
+/* Conteudo Principal */
+
+.main-content{
+  width: calc(100% - 335px);
+  float: left;
+}
+.common-title{
+  font-size: 17px;
+  color: #717171;
+  margin-top: 96px;
+}
+.commit-card{
+  width: 90%;
+  height: 90px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(20, 16, 97, 0.08);
+  box-shadow: 0px 0px 32px 0px rgba(20, 16, 97, 0.08);
+}
+.commits{
+  margin-top: 40px;
+}
+.person-avatar{
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: #efefef;
+  float: left;
+}
+.action{
+  color: #686868;
+  font-size: 17px;
+  margin-bottom: 6px;
+  padding-top: 19px;
+}
+.type-of-action{
+
+}
+.branch{
+  color: #6b9cb9;
+}
+.repository{
+  color: #6b9cb9;
+}
+.log-commit{
+  color: #686868;
+  margin-top: 6px;
+  font-size: 14px;
+}
+.git-user{
+  color: #6b9cb9;
+}
+.action-logged{
+
+}
+/* Conteudo Lateral */
+
+aside{
+  width: 335px;
+  float: left;
+}
+.side-line{
+  background-image: url(../img/bluebar.png);
+  background-repeat: no-repeat;
+  width: 4px;
+  float: left;
+  height: 170px;
+  margin-right: 35px;
+}
+article{
+  margin-bottom: 90px;
+  min-height: 170px;
+}
+
+/* Serviços Lateral */
+
+.card{
+  width: 202px;
+  height: 68px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.github{
+  background-image: url(../img/github-connected.png);
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: 13px;
+}
+.username-service{
+  padding-top: 38px;
+  color: #fff;
+  padding-left: 69px;
+}
+
+/* Planos Lateral */
+
+.card-collapsable{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 32px 0px rgba(20, 16, 97, 0.08);
+  width: 202px;
+  height: 204px;
+  margin-left: 35px;
+}
+.card-collapsable header{
+  height: 43px;
+  width: 100%;
+  border-bottom: solid 1px #efefef;
+}
+.card-collapsable input{
+  display: block;
+  width: 168px;
+  margin: 0 auto;
+  height: 36px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #6b9cb9;
+}
+.card-title{
+  color: #717171;
+  font-size: 14px;
+  padding-left: 17px;
+  padding-top: 15px;
+}
+.plan-description{
+  color: #888;
+  text-align: justify;
+  font-size: 13px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
