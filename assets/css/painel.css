@@ -118,6 +118,9 @@
   margin: 15px;
   background-color: #efefef;
   float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .action{
   color: #686868;
