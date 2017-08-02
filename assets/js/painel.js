@@ -3,11 +3,16 @@ $(function(){
 
   $.ajax({
     type: 'GET',
-    url: 'https://api.github.com/users/LukasMeine/events',
+    url: 'https://api.github.com/users/xxrafaelzxx/events',
     success: function(data) {
-      console.log(data)
-      $.each(data, function(i, commits){
-        $('.commits').append('<div class="commit-card"><div class="person-avatar" style="background-image: url('+ commits.actor.avatar_url +');"></div><p class="action font2 fw700"><span class="type-of-action font2 fw700">Commited</span> to <span class="branch font2 fw700">novo_siest</span> at <span class="repository font2 fw700">LukasMeine/siestera</span></p><p class="log-commit font2 fw700"><span class="git-user font2 fw700">'+ commits.actor.login +' </span><span class="action-logged font1 fw400">commited Devmind commit in 2017-07-31 11:59:02</span></p></div>')
+      $.each(data, function(i, commites){
+        var eae = commites.payload.ref,
+        typedata = commites.type;
+
+        if (typedata == "PushEvent" && eae !== null) {
+          eae2 = eae.split('/')[2]
+          $('.commits').append('<div class="commit-card"><div class="person-avatar" style="background-image: url('+ commites.actor.avatar_url +');"></div><p class="action font2 fw700"><span class="type-of-action font2 fw700">Pushed</span> to <span class="branch font2 fw700">'+ eae2 +'</span> at <span class="repository font2 fw700">'+ commites.repo.name +'</span></p><p class="log-commit font2 fw700"><span class="git-user font2 fw700">'+ commites.actor.login +' </span><span class="action-logged font1 fw400">commited '+ commites.payload.commits[0].message +'</span></p></div>')
+        }
       });
 
     }
